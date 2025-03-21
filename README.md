@@ -41,24 +41,15 @@ Before running the application, ensure you have the following installed:
 2. Navigate to the server https link in the console onto your browser.
    Example; `https://73*.*.0.*:8***`
 
-##Folder structure 
- `mouse_tracker/
-│
-├── app.py                # Main Flask application
-├── requirements.txt      # List of dependencies
-│
-├── templates/            # Folder for HTML templates
-│   └── index.html        # Web interface for displaying mouse position
-│
-└── static/               # Folder for static files (CSS, JS, images)
-    ├── css/
-    │   └── styles.css    # Custom CSS for styling the page
-    └── js/
-        └── script.js     # Custom JavaScript for additional functionality`
 
-##Creation and activation of virtual enviroment
-1. After cloned or extracted, go into the folder and open it in a Terminal window. Then type
-  `python -m venv "Enivroment name of your choice"` {Example; `python -m venv myenv`}
+## Creation and activation of virtual enviroment
+1. After cloned or extracted, go into the folder and open it in a Terminal window.
+Then type
+  `python -m venv "Enivroment name of your choice"`
+   {Example; `python -m venv myenv`}
+
 2.Activate virtual enviroment
-  Refer to these links and look for your device os: [https://www.geeksforgeeks.org/create-virtual-environment-using-venv-python/](url)
-                                                    [https://docs.python.org/3/library/venv.html](url)
+  Refer to these links and look for your device os: 
+  [https://www.geeksforgeeks.org/create-virtual-environment-using-venv-python/](url)
+                                                    
+  [https://docs.python.org/3/library/venv.html](url)
