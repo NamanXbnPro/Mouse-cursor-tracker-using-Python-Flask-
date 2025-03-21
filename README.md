@@ -26,8 +26,8 @@ Before running the application, ensure you have the following installed:
 
 1. Clone the repository:
    ```bash
-   git clone [(https://github.com/NamanXbnPro/Mouse-cursor-tracker-using-Python-Flask-.git)](url)
-   cd mouse-tracker
+   git clone https://github.com/NamanXbnPro/Mouse-cursor-tracker-using-Python-Flask-.git
+   
 2. Install the required dependencies:
    `pip install -r requirements.txt`
 
