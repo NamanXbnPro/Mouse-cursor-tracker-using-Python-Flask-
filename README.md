@@ -42,9 +42,9 @@ Before running the application, ensure you have the following installed:
    Example; `https://73*.*.0.*:8***`
 
 
-### Creation and activation of virtual enviroment
+# Creation and activation of virtual enviroment
   
-  # Refer to these links and look for your device os: 
+### Refer to these links and look for your device os: 
   [https://www.geeksforgeeks.org/create-virtual-environment-using-venv-python/](url)
                                                     
   [https://docs.python.org/3/library/venv.html](url)
