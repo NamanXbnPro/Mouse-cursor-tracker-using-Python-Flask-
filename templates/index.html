@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mouse Tracker</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/4.0.1/socket.io.js"></script>
+    <script src="{{ url_for('static', filename='js/script.js') }}"></script>
+</head>
+<body>
+    <div class="container">
+        <h1>Mouse Position Tracker</h1>
+        <p>Mouse Position: <span id="mouse-position">(0, 0)</span></p>
+    </div>
+
+    <script>
+        // Connect to the Socket.IO server
+        const socket = io();
+
+        // Listen for mouse position updates
+        socket.on("mouse_position", function(data) {
+            document.getElementById("mouse-position").textContent = `(${data.x}, ${data.y})`;
+        });
+    </script>
+</body>
+</html>
